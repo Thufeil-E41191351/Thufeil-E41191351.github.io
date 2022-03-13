@@ -972,7 +972,7 @@ section .container {
 .contact .php-email-form textarea {
   padding: 12px 15px;
 }
-.contact .php-email-form button[type=submit] {
+.contact[type=button] {
   background: #18d26e;
   border: 0;
   padding: 10px 30px;
@@ -980,9 +980,18 @@ section .container {
   transition: 0.4s;
   border-radius: 4px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact[type=button]:hover {
   background: #15bb62;
 }
+
+/*--------------------------------------------------------------
+# Accordion
+--------------------------------------------------------------*/
+
+.accordion{
+
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1028,3 +1037,18 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.videowrapper { 
+  float: none; 
+  clear: both; 
+  width: 100%; 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  padding-top: 25px; 
+  height: 0; } 
+.videowrapper iframe { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; }
